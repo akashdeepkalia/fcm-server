@@ -16,7 +16,7 @@ const start = async () => {
         console.log(`HTTP server is running on port ${process.env.PORT || 3000}`)
         )
     } catch (error) {
-        console.log("Error starting Error")
+        console.log(`Error starting : ${error.message}`)
     }
 }
 
